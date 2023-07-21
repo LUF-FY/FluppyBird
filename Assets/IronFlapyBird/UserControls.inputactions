@@ -1,0 +1,45 @@
+{
+    "name": "UserControls",
+    "maps": [
+        {
+            "name": "gameplay",
+            "id": "3230e986-2be2-45c5-a0b2-2f19f3fca72b",
+            "actions": [
+                {
+                    "name": "Flap",
+                    "type": "Button",
+                    "id": "83890270-4b9f-4fff-844f-926d911836db",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                }
+            ],
+            "bindings": [
+                {
+                    "name": "",
+                    "id": "18660c1b-ae5f-40c7-9a36-067813af80e2",
+                    "path": "<Keyboard>/space",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Flap",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "73ea2c03-ba79-4c5a-8bec-469b6be45924",
+                    "path": "<Touchscreen>/Press",
+                    "interactions": "Tap",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Flap",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                }
+            ]
+        }
+    ],
+    "controlSchemes": []
+}
